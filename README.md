@@ -51,7 +51,7 @@ You can also define options for keywords like if you want to open same link for 
 
     "rubygem|rubygems": "http://rubygems.org"
     
-In this case both commands `go to rubygem` and `go to rubygems` will take you to `http://rubygems.org`
+In case OR(|) `rubygem|rubygems` both commands `go to rubygem` and `go to rubygems` will take you to `http://rubygems.org`
 
 #### 2 - Function Parameters
 
