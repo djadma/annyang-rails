@@ -50,6 +50,8 @@ You can create file annyang.yml in config directory (config/annyang.yml) where y
 You can also define options for keywords like if you want to open same link for rubygem and rubygems then you can write it OR (|) operator:
 
     "rubygem|rubygems": "http://rubygems.org"
+    
+In this case both commands `go to rubygem` and `go to rubygems` will take you to `http://rubygems.org`
 
 #### 2 - Function Parameters
 
