@@ -1,4 +1,4 @@
-# annyang for Rails Asset Pipeline
+# annyang for Rails Asset Pipeline [![Gem Version](https://badge.fury.io/rb/annyang-rails.png)](http://badge.fury.io/rb/annyang-rails)
 
 [annyang](https://github.com/TalAter/annyang) is a tiny javascript SpeechRecognition library that lets your users control your site with voice commands. ([documentation](https://www.talater.com/annyang/)). 
 
