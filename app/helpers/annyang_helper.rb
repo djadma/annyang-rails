@@ -1,8 +1,8 @@
 module AnnyangHelper
   def init_annyang(commands = {})
     commands = commands.merge(get_annyang_commands)
-    raw "<script>
-      var annyang_commands={};
+      javascript_tag do 
+      raw("var annyang_commands={};
       var linkAnnyang = function(term){
         if(annyang_commands[term]){
            window.location = annyang_commands[term];
@@ -23,8 +23,8 @@ module AnnyangHelper
           annyang.start();
         }
       }
-      $(document).ready(initAnnyang);
-      </script>"
+      $(document).ready(initAnnyang);")
+      end
   end
   def get_annyang_commands
       yml_path = File.join(Rails.root,"config/annyang.yml")
