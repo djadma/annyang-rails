@@ -91,6 +91,12 @@ if (annyang) {
 
 **For more details, [visit the demo and docs site](https://www.talater.com/annyang).**
 
+## Contributors
+
+1. [Ahmad Hussain](https://github.com/ahmad-hussain-confiz)
+2. [Usman Ali](https://github.com/usman-ali-confiz)
+3. [Kinaan Khan Sherwani](https://github.com/kinaan-khan-confiz)
+
 
 ## Contributing
 
