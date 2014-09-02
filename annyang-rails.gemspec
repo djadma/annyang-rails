@@ -2,13 +2,13 @@
 
 Gem::Specification.new do |s|
   s.name = "annyang-rails"
-  s.version = "0.2.0"
+  s.version = "1.4.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Confiz Limited"]
-  s.date = "2013-12-10"
+  s.date = "2014-09-02"
   s.description = "A tiny javascript SpeechRecognition library that lets your users control your site with voice commands."
-  s.email = "ahmad.hussain@confiz.com"
+  s.email = "opensource@confiz.com"
   s.extra_rdoc_files = ["README.md", "lib/annyang-rails.rb", "lib/annyang-rails/version.rb"]
   s.files = ["README.md", "Rakefile", "app/helpers/annyang_helper.rb", "init.rb", "lib/annyang-rails.rb", "lib/annyang-rails/version.rb", "vendor/assets/javascripts/annyang.js", "vendor/assets/javascripts/annyang.min.js", "Manifest", "annyang-rails.gemspec"]
   s.homepage = "http://github.com/confiz/annyang-rails"
